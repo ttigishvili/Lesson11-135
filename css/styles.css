@@ -1,0 +1,376 @@
+/* header starts */
+.header-division {
+    background-image: url(../images/Group\ 65.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 155px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+  }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+  }
+  .space-between {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .space-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body {
+    background-color: white;
+  }
+  /* navigation starts */
+  .navigation {
+    max-width: 934px;
+    width: 100%;
+
+  }
+  .logo-img {
+    margin-top: 30px;
+  }
+  .li-list {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    /* hover */
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .li-list-wrapper{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 70px;
+  }
+  .a-tags {
+    color: white;
+    margin-top: 15px;
+    margin-left: 64px;
+
+  }
+  .home-tag {
+    position: absolute;
+    bottom: 30px;
+    right: 26.5px;
+  }
+  .home-tag-wrapper{
+    display: flex;
+    width: 119px;
+    height: 119px;
+    background-color: #FF4900;
+    justify-content: center;
+    position: relative;
+  }
+  .rooms::after {
+    content: "\02C5";
+    margin-left: 3px;
+    height: 3.47px;
+    width: 8px;
+  }
+  .hire-me{
+    border:  #FF4900 15px solid;
+    border-radius: 10%;
+    background-color: #FF4900 ;
+  }
+  .burger-bar{
+    display: none;
+    color: white;
+    font-size:xx-large;
+    margin-top: 15px;
+    margin-left: 450px;
+  }
+  /* middle-div starts */
+  .middle-div{
+    display: flex;
+    max-width: 592px;
+    width: 100%;
+    margin-top: 23px;
+    margin-left: 300px;
+    position: relative;
+  }
+  .description{
+    position: absolute;
+    top: 300px;
+    right: 250px;
+    width: 100%;
+  }
+  .description-h1{
+    color: white;
+    font-size: 80px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+
+  }
+  .description-h3{
+    color: white;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    margin-top: 25px;
+  }
+  .description-button{
+    margin-top: 69px;
+
+  }
+  .description-button1{
+    width: 241px;
+    height: 60px;
+    color: white;
+    border:  #FF4900 15px solid;
+    border-radius: 11%;
+    background-color: #FF4900 ;
+    margin-right: 19px;
+  }
+.description-button2{
+  width: 241px;
+  height: 60px;
+  color: white;
+  border:  black 15px solid;
+  border-radius: 10%;
+  background-color: black  ;
+  outline: 2px solid #A4A4A4;
+  outline-offset: 0px;
+
+}
+/* photo starts */
+.middle-foto{
+  width: 1200px;
+  height: auto;
+}
+/* middle section ends */
+/* life struggles div starts */
+.life-strugles-div{
+  justify-content: center;
+  display: flex;
+  max-width: 1449px;
+  width: 100%;
+  margin-top: 150px;
+  height: 759px;
+  overflow: hidden;
+  
+}
+.life-struggles-image{
+ filter: grayscale(200%);
+ height: 620px; 
+
+}
+.about-wrapper{
+   display: flex;
+   width: 647px;
+
+   flex-direction: column;
+   margin-left: 91px;
+   color: white;
+
+}
+.life-h2{
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+
+}
+.life-p{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-display: swap;
+  color: white;
+  margin-top: 46px;
+  margin-bottom: 26px;
+
+}
+.life-h3{
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+
+}
+.life-h3-2{
+  margin-top: 66px;
+  margin-bottom: 66px;
+}
+.life-h3-4{
+  margin-top: 66px;
+
+}
+.button-wraper{
+  display: flex;
+}
+/* many divs starts */
+/* top texts starts */
+.six-divs{
+  display: flex;
+  width: 1448px;
+  flex-direction: column;
+  margin-left: 50px;
+
+
+}
+.texts{
+  display: flex;
+  width: 1083px;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 75px;
+  margin-left: 200px;
+}
+.texts-h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.texts-p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+
+}
+/* top texts ends */
+/* divs start */
+/* row 1 starts */
+.row1{
+  display: flex;
+  position: relative;
+}
+.top-row{
+  width: 442px;
+  height: 132.88px;
+  background-color: #212020;
+
+}
+.div1{
+  background-color: #FF4900;
+}
+.div2{
+  margin-left: 61px;
+  margin-right: 61px;
+}
+.top-row-h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 130px;
+  position: absolute;
+  bottom: 50px;
+
+}
+.fa-wordpress-simple{
+  margin-top: 40px;
+  margin-left: 45px;
+  border: 10px solid;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+.fa-arrow-right-long{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  left: 390px;
+  top: 59px;
+}
+.row1-image{
+  margin-top: 48px;
+  margin-left: 44px;
+  border: 10px solid;
+  border-radius: 50%;
+  background-color: black;
+}
+.row1-image-2{
+  margin-top: 48px;
+  margin-left: 44px;
+  border: black 10px solid;
+  border-radius: 50%;
+  color: white;
+
+ 
+
+
+}
+.arrow{
+  margin-left: 270px;
+  margin-bottom: 15px;
+}
+.arrow-2{
+  margin-left: 290px;
+  margin-bottom: 20px;
+}
+/* row 1 ends */
+/* row 2 starts */
+
+.row2{
+  display: flex;
+  margin-top: 55px;
+  position: relative;
+  margin-bottom: 83px;
+}
+.bottom-row-h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 130px;
+  position: absolute;
+  bottom: 50px;
+
+
+}
+.bottom-row{
+  width: 442px;
+  height: 132.88px;
+  background-color: #212020;
+}
+.div5{
+  margin-left: 61px;
+  margin-right: 61px;
+}
+.arrow-3{
+  margin-left: 290px;
+  margin-bottom: 30px;
+}
+/* row 2 ends */
+/* button starts */
+.button-division{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  
+}
+.view-all-button{
+  margin: 0 auto;
+  width: 241px;
+  height: 60px;
+  color: white;
+  border:  #FF4900 15px solid;
+  border-radius: 11%;
+  background-color: #FF4900 ;
+  
+}
+
+
+
